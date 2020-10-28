@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Wiki News</title>
+		<!-- Stylesheets/Scripts -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="stylesheets/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cormorant+Garamond:wght@300&family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="scripts/app.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Main Header -->
+			<div class="row">
+				<div class="header-center col-xs-12">
+					<h1 class="paper-title text-center">Wiki News</h1>
+				</div>
+			</div>
+			<!-- Delim -->
+			<div class="row">
+				<div class="search-operator-top col-xs-12"></div>
+				<div class="search-operator text-center col-xs-12">
+					<input class="search-bar" type="text" placeholder="Start your search here" list="search-autocomplete">
+					<datalist id="search-autocomplete"></datalist>
+				</div>
+				<div class="search-operator-bottom col-xs-12"></div>
+				<div class="no-matches col-xs-12 text-center">Cannot find any results for your search, please try searching for something else.</div>
+			</div>
+		</div>
+	</body>
+</html>
